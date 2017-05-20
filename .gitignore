@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+ENV
+src/.cache
+src/__pycache__
+src/.coverage
+src/*egg*
+.coverage
