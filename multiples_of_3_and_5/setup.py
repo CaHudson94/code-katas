@@ -3,23 +3,23 @@ from setuptools import setup
 
 extra_packages = {
     'testing': ['ipython', 'pytest', 'pytest-watch', 'pytest-cov',
-                'test_string_repeat.py', 'tox']
+                'test_most_digits.py', 'tox']
 }
 
 setup(
-    name='stringrepeat',
-    desctription='Implements the String repeat program.',
+    name='most digits',
+    desctription='Implements the most digits program.',
     version='0.1',
     author='Chris Hudson',
     author_email='c.ahudson84@yahoo.com',
     license='MIT',
-    py_modules=['string_repeat'],
+    py_modules=['most_digits'],
     package_dir={'': 'src'},
     install_requires=[],
     extras_require=extra_packages,
     entry_points={
         'console_scriptes': [
-            'stringrepeat = stringrepeat:main'
+            'mostdigits = mostdigits:main'
         ]
     }
 )

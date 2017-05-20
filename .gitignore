@@ -105,3 +105,4 @@ src/.cache
 src/__pycache__
 src/.coverage
 src/*egg*
+.coverage
