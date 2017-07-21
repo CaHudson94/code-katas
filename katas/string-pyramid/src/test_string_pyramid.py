@@ -1,4 +1,4 @@
-"""."""
+"""Test suite for string pyramid."""
 from string_pyramid import (
     count_all_characters_of_the_pyramid,
     count_visible_characters_of_the_pyramid,
