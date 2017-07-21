@@ -1,0 +1,7 @@
+[run]
+source = src
+omit =
+    src/stack.py
+    src/linked_list.py
+[report]
+show_missing = True

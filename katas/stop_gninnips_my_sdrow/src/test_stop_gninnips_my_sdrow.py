@@ -14,5 +14,5 @@ SENT_PARAMS = {
 @pytest.mark.parametrize('sentence, result', SENT_PARAMS)
 def test_complimentary_dna(sentence, result):
     """."""
-    from stop_gninnips_my_words import spin_words
+    from stop_gninnips_my_sdrow import spin_words
     assert spin_words(sentence) == result
